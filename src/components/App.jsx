@@ -1,11 +1,11 @@
-import user from '../user'
-import data from '../data'
-import friends from '../friends'
-import transactionsList from '../transactions'
-import Profile from './Profile.js'
-import Statistics from './Statistics'
-import FriendList from './FriendList'
-import TransactionHistory from './TransactionTable'
+import user from './Profile/user'
+import data from './Statistics/data'
+import friends from './FriendList/friends'
+import transactionsList from './TransactionTable/transactions'
+import Profile from './Profile/Profile.js'
+import Statistics from './Statistics/Statistics'
+import FriendList from './FriendList/FriendList'
+import TransactionHistory from './TransactionTable/TransactionTable'
 
 
 export default function App(){
