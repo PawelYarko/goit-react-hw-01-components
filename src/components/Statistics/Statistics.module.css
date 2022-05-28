@@ -1,5 +1,7 @@
-.FriendList{
+.list{
     display: flex;
-    flex-direction: row;
     list-style: none;
+}
+.item{
+    padding: 5px;
 }

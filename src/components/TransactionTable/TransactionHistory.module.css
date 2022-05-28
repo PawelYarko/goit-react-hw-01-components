@@ -1,0 +1,8 @@
+.table{
+    border: 2px solid grey;
+    margin-left: 15px;
+}
+
+.thead{
+    background-color: #964b72;
+}
