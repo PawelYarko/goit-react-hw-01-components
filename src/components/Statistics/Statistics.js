@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import randomColor from 'randomcolor'
 import s from './Statistics.module.css'
 
+
 const Statistics = ({title, stats}) =>{
 return  <section>
             {title && <h2>{title}</h2>}

@@ -1,6 +1,19 @@
 .list{
+    display: flex;
+    flex-direction: row;
     list-style: none;
 }
+
 .item{
+    display: flex;
+    flex-direction: row;
     margin-left: 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
 }

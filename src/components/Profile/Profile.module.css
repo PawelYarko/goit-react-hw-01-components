@@ -2,9 +2,12 @@
     display: block;
 }
 .description{
-    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 .stats{
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
 }
