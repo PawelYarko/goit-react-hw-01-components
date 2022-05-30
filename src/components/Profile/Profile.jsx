@@ -15,23 +15,23 @@ const Profile = ({
       <img
         src={avatar}
         alt="User avatar"
-        className="avatar"
+        className={s.avatar}
       />
-      <p className="name">{username}</p>
-    <p className="tag">{"@" + tag}</p>
-    <p className="location">{location}</p>
+      <p className={s.name}>{username}</p>
+    <p className={s.tag}>{"@" + tag}</p>
+    <p className={s.location}>{location}</p>
     </div>
   
     <ul className={s.stats}>
-      <li className={s.item} style={{backgroundColor:"#804fa1"}}>
+      <li className={s.item}>
         <span className={s.label}>Followers</span>
     <span className={s.quantity}>{stats.followers}</span>
       </li>
-      <li className={s.item} style={{backgroundColor:"#32a85c"}}>
+      <li className={s.item}>
         <span className={s.label}>Views</span>
     <span className={s.quantity}>{stats.views}</span>
       </li>
-      <li className={s.item} style={{backgroundColor:"#3298a8"}}>
+      <li className={s.item}>
         <span className={s.label}>Likes</span>
     <span className={s.quantity}>{stats.likes}</span>
       </li>

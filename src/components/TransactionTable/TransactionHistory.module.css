@@ -1,8 +1,17 @@
 .table{
-    border: 2px solid grey;
+    border: 2px solid black;
     margin-left: 15px;
 }
 
 .thead{
     background-color: #964b72;
+}
+
+.itemStyle{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.itemStyleTr:nth-child(2n){
+    background-color: grey;
 }

@@ -1,4 +1,3 @@
-import randomColor from 'randomcolor'
 import PropTypes from 'prop-types'
 import s from './TransactionHistory.module.css'
 
@@ -15,10 +14,10 @@ const TransactionHistory = ({items}) =>{
         </thead>
         <tbody>
             {items.map(item =>
-                <tr key={item.id} style={{backgroundColor:randomColor()}}>
-                    <td>{item.type}</td>
-                    <td>{item.amount}</td>
-                    <td>{item.currency}</td>
+                <tr key={item.id} className={s.itemStyleTr}>
+                    <td className={s.itemStyle}>{item.type}</td>
+                    <td className={s.itemStyle}>{item.amount}</td>
+                    <td className={s.itemStyle}>{item.currency}</td>
                 </tr>
                 
             )}

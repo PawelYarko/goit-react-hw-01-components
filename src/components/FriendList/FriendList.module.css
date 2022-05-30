@@ -1,13 +1,18 @@
 .list{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
 }
 
 .item{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    margin: 5px 0 0 10px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .green{

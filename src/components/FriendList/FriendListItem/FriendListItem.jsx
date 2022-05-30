@@ -7,7 +7,7 @@ const FriendListItem = ({items}) =>{
             <li className={s.item} key={item.id}>
             <span >{item.isOnline}</span>
             <img className={`s.avatar ${item.isOnline ? s.green : s.red}`} src={item.avatar} alt="User avatar" width="48" />
-            <p className="name">{item.name}</p>
+            <p className={s.name}>{item.name}</p>
         </li>
         );
         

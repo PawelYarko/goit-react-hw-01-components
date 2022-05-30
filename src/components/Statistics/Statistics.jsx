@@ -5,12 +5,12 @@ import s from './Statistics.module.css'
 
 const Statistics = ({title, stats}) =>{
 return  <section>
-            {title && <h2>{title}</h2>}
+            {title && <h2 className={s.title}>{title}</h2>}
                 <ul className={s.list}>
                 {stats.map(el => 
                     <li key={el.id} className={s.item} style={{backgroundColor:randomColor()}}>
-                        <span>{el.label}</span>
-                        <span>{el.percentage}</span>
+                        <span className={s.label}>{el.label}</span>
+                        <span className={s.interest}>{el.percentage + "%"}</span>
                     </li>
                 )}
                     
