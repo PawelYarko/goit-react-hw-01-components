@@ -10,7 +10,7 @@ return  <section>
                 {stats.map(el => 
                     <li key={el.id} className={s.item} style={{backgroundColor:randomColor()}}>
                         <span className={s.label}>{el.label}</span>
-                        <span className={s.interest}>{el.percentage + "%"}</span>
+                        <span className={s.interest}>{el.percentage}%</span>
                     </li>
                 )}
                     
